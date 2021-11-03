@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/pc/IdeaProjects/Batch10 TestNG">
+        <classes>
+            <class name="com.syntax.class01.Assertion">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="validationOfTitle"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class01.EnableAndDisableAttribute">
+                <methods>
+                    <include name="validateDashboardPage"/>
+                    <include name="validateLogo"/>
+                    <include name="validateLogout"/>
+                    <include name="validLogin"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class01.LogInTest">
+                <methods>
+                    <include name="validLogin"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class01.PreConditionAndPostCondition">
+                <methods>
+                    <include name="firstMethod"/>
+                    <include name="secondMethod"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class01.PriorityAttribute">
+                <methods>
+                    <include name="login"/>
+                    <include name="launchBrowser"/>
+                    <include name="navigateUrl"/>
+                    <include name="closeBrowser"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class01.SimpleTestNGDemo">
+                <methods>
+                    <include name="testMethod"/>
+                    <include name="antherMethod"/>
+                    <include name="ThirdMEthod"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class02.BooleanAssertion">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="validationOfTitle"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class02.">
+                <methods>
+                    <include name="login"/>
+                    <include name="verifyDashboardPage"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class02.SoftAssertion">
+                <methods>
+                    <include name="softAssertionValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
